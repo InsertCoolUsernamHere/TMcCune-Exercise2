@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--F23 DGL 103 DLU1 - Taanika McCune - Exercise 2 - https://kiixin.ca/-->
+        <meta charset="UTF-8">
+        <title>KiiX̣in ancestral site</title>
+    </head>
+<!--i'm going to preface this by stating: i'm not of the habit of using styling elements such as bold or italic when i have access to CSS. 
+    In fact, i tend to forget those elements are an option when i know i can use CSS to style text later with "font-weight" or "text-decoration" anyway.
+    So i will be foregoing the use of those particular elements-->
+    <body>
+        <nav>
+            <img src="img0logo.png" alt="kiixin logo">
+            <ul>
+                <li>Menu</li>
+                <li><a href="#" rel="none">home </a></li>
+                <li><a href="#" rel="none">our story</a></li>
+                <li><a href="#" rel="none">the tour</a></li>
+                <li><a href="#" rel="none">#indigenouscoastbc</a></li>
+                <li><a href="#" rel="none">contact us</a></li>
+                <li><a href="#" rel="none">book a tour</a></li>
+                <!--is there a better way to format this in the future? i know how to use :hover in CSS but so far i have been unable to get the text to highlight unless my mouse was directly on it, however on the example site, the text changes when the mouse is touching the surrounding area. 
+                is it a CSS issue or HTML issue. if it's CSS you can disregard this question since it's not relevant-->
+            </ul>
+        </nav>
+        <header>
+            <h2>KIIX̣IN TOURS. Open May 19th-September 4th 2023</h2>
+            <img src="img1beach.jpeg" alt="image of a beach near the site">
+        </header>
+        <main>
+            <div>
+                <img src="img2totempole.png" alt="image of logo surrounded by totem poles">
+            </div>
+            <section>
+                <img src="img3personhike.png" alt="image of indigenous man walking on a trail">
+                <!--the img element is in front of the div element here, because the img is on the left, therefore comes first-->
+                <div id="discover">
+                    <!--i'm using div elements with ID's to separate the other elements from the images in each section. to clariy, this is to make formatting easier later on.-->
+                    <h2>Discover kiiX̣in</h2>
+                    <h3>Kiix̣in is the only known traditional First Nations village remaining on the west coast of southern B.C., with significant standing house remains. It is commemorated as a National Historic Site. Visitors are invited to hike the trail to Kiix̣in, while exploring Vancouver Island’s pristine rainforest, beautiful protected beaches, and significant standing house remains. Along the way, guests will learn much of Huu-ay-aht’s knowledge and history, as well as Indigenous culture in the region.</h3>
+                    <a href="#" rel="none">our story →</a>
+                </div>
+            </section>
+            <section>
+                <div id="tour"> 
+                    <h2>the kiixin tour</h2>
+                    <h3>Kiix̣in is the only known traditional First Nations village remaining on the west coast of southern B.C., with significant standing house remains. It is commemorated as a National Historic Site. Visitors are invited to hike the trail to Kiix̣in, while exploring Vancouver Island’s pristine rainforest, beautiful protected beaches, and significant standing house remains. Along the way, guests will learn much of Huu-ay-aht’s knowledge and history, as well as Indigenous culture in the region.</h3>
+                    <a href="#" rel="none">more about the tour →</a>
+                </div>
+                <img src="img4sharinghistory.jpeg" alt="image of people sharing their culture">
+            </section>
+            <section>
+                <iframe src="https://maps.app.goo.gl/8kt4FaPbv9ZSPfCz8"></iframe>
+                <!--i couldn't figure out how to properly work this element, i might have missed something because the link is showing up but the map refuses to load'-->
+                <div id="map">
+                    <img src="img5fish.png" alt="indigenous artstyle fish">
+                    <h2>getting to bamfield</h2>
+                    <h3>Visitors can reach KIIX̣IN Village by vehicle, floatplane, or boat.</h3>
+                    <h4>Drivers are encouraged to prepare for the journey by filling up their tanks with gas and carrying water, snacks and necessities. The road leading to Bamfield – the town in which Kiix̣in Village is located – is remote, and roads can be narrow and winding. Alternatively, visitors can travel from Vancouver International Airport or Port Alberni to Bamfield via Pacific Seaplanes.</h4>
+                    <a href="#" rel="none">GET DIRECTIONS →</a>
+                    <a href="#" rel="none">STAYING IN BAMFIELD AND OTHER SERVICES →</a>
+                </div>
+            </section>
+            <article>
+                <a href="#" rel="none"><img src="instalogo.png" alt="insta logo"><h2>Visit us on instagram</h2></a>
+                <img src="hut1.jpeg" alt="hut-like building">
+                <img src="hut2.jpeg" alt="building on a dock">
+                <img src="dock.jpeg" alt="image of a dock">
+                <img src="drummers.jpeg" alt="three people drumming by the water">
+            </article>
+            <section>
+                <div id="partners">
+                    <h2>our partners</h2>
+                    <p>Kiixin Tours is an initiative by the Huu-Ay-Aht First Nations in partnership with a variety of public and private organizations.</p>
+                    <a href="#" rel="none">SEE ALL PARTNERS →</a>
+                </div>
+                <h2>Visitors can reach KIIX̣IN Village by vehicle, floatplane, or boat.</h2>
+                <img src="destinationBC.png" alt="logo of destination BC">
+            </section>
+            <footer>
+                <div id="logos">
+                    <img src="kiixinlogo.png" alt="kiixin logo">
+                    <img src="huuayaht.png" alt="huuayaht logo">
+                    <img src="pachenabaycampground.png" alt="pachena bay campground logo">
+                    <img src="hfngroupofbusiness.png" alt="hfn group of business logo">
+                </div>
+                <div id="socialmedia">
+                    <a href="#" rel="none"><img src="instalogo2.png" alt="insta logo"></a>
+                    <a href="#" rel="none"><img src="facebooklogo.png" alt="facebook logo"></a>
+                    <a href="#" rel="none"><img src="twitterlogo.png" alt="twitter logo"></a>
+                    <!--sidenote, twitter is wayyy better than X-->
+                    <!--another sidenote, the site i used had the images themselves as a link so i had to scour the internet to find the same image which was kind of annoying-->
+                    <!--third sidenote, apparently i didn't even have to add the images, but it's already done so...oh well, i guess i did extra work-->
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
